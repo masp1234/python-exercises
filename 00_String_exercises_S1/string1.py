@@ -55,17 +55,21 @@ def both_ends(s):
 # Hint: s.replace(stra, strb) returns a version of string s
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
-  placeholderString = s[1:]
-  print(type(placeholderString))
+ return s[0] + s[1:].replace(s[0], '*') 
+ 
+ """
+ a longer and more readable version¨
+
+ placeholderString = s[1:]
+
+ return s[0] + placeholderString.replace(s[0], '*')
   
-  for char in placeholderString:
-    if char == s[0]:
-        print(char)
-        placeholderString = placeholderString.replace(str(char), "*")
-  
-  returnString = s[0] + placeholderString
-        
-  return returnString     
+ """
+
+
+
+
+
   
 
 
