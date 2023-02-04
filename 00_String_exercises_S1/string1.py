@@ -81,7 +81,9 @@ def fix_start(s):
 #   'dog', 'dinner' -> 'dig donner'
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
-  return ''
+  aPlaceholder = b[0:2] + a[2:]
+  bPlaceholder = a[0:2] + b[2:]
+  return aPlaceholder + " " + bPlaceholder
 
 
 # Provided simple test() function used in main() to print
@@ -125,5 +127,7 @@ def main():
   test(mix_up('dog', 'dinner'), 'dig donner')
   test(mix_up('gnash', 'sport'), 'spash gnort')
   test(mix_up('pezzy', 'firm'), 'fizzy perm')
+  test(mix_up('pe', 'mo'), 'mo pe')
+  test(mix_up('p', 'm'), 'm p')
 
 main()
