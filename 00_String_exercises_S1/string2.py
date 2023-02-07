@@ -47,6 +47,16 @@ def not_bad(s):
 # Given 2 strings, a and b, return a string of the form
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
+  aFront = ""
+  aBack = ""
+  if len(a) % 2 == 0:
+    aEnd = int(len(a) / 2 + 1)
+    bStart = int(len(a) / 2)
+    print(type(aEnd))
+    aFront = a[0:aEnd]
+    aBack = a[bStart:]
+    
+    print(aFront, aBack)
   return ''  
 
 
