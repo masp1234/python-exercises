@@ -1,3 +1,5 @@
+import re as regex
+
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -35,6 +37,14 @@ def verbing(s):
 # So 'This dinner is not that bad!' yields:
 # This dinner is good!
 def not_bad(s):
+
+  # Returnerer et regex object, som indeholder span (en substring hvor søgeresultat forekommer.
+  # Hvis søgeresultatet ikke findes returneres datatypen None eller NoneType)
+  # Læg mærke til at regex er importeret oppe i toppen
+  regexObject = regex.search('not.*bad', s)
+  if regexObject != None:
+    regexSpan = regexObject.span()
+    s = s.replace(s[regexSpan[0]: regexSpan[1]], 'good')
   return s
   
 
@@ -50,14 +60,18 @@ def front_back(a, b):
   aFront = ""
   aBack = ""
   if len(a) % 2 == 0:
-    aEnd = int(len(a) / 2 + 1)
-    bStart = int(len(a) / 2)
-    print(type(aEnd))
-    aFront = a[0:aEnd]
-    aBack = a[bStart:]
-    
-    print(aFront, aBack)
-  return ''  
+    aFront = a[0: int(len(a) / 2)]
+    aBack = a[int(len(a) / 2):]
+  else:
+    aFront = a[0: int(len(a) /2 + 1)]
+    aBack = a[int(len(a) / 2 + 1):]
+  if len(b) % 2 == 0:
+    bFront = b[0: int(len(b) / 2)]
+    bBack = b[int(len(b) / 2):]
+  else:
+    bFront = b[0: int(len(b) /2 + 1)]
+    bBack = b[int(len(b) / 2 + 1):]
+  return aFront + bFront + aBack + bBack  
 
 
 # Simple provided test() function used in main() to print
