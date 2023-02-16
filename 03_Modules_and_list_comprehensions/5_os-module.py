@@ -19,6 +19,7 @@ file2.write(input())
 # 5.5 read the content of the files and and print it to the console.
 file = open('os_exercises/exercises.py', 'r')
 file2 = open('os_exercises/something-else.py', 'r')
+
 print(file.read(), file2.read())
 
 
