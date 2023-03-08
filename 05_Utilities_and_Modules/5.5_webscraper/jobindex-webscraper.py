@@ -10,8 +10,6 @@ response = session.get(url)
 # sleep=1 gør at den lige venter et sekund. Bare for at være sikker på, at det hele siden er loadet
 response.html.render(sleep=1)
 
-
-
 def scrapeJobs():
     search_words = sys.argv[1:]
     job_results = response.html.find('.PaidJob', containing=search_words)
@@ -25,7 +23,6 @@ def scrapeJobs():
             jobs.append(createJobResult(job_result))
         
         createFile(jobs)
-
 
 def createJobResult(job_result):
     job_description = []
@@ -41,12 +38,6 @@ def createJobResult(job_result):
     
     return (job_description, link)
         
-    
-    
-
-
-    
-
 def createFile(jobs):
         file = open('jobs.txt', 'w')
 
@@ -58,8 +49,6 @@ def createFile(jobs):
             file.write(f'Location:\n{job[0][0]}\nDescription:\n{description}\nLink: {job[1]}\n\n')
         
         print(f'Success! {len(jobs)} jobs were found.')
-
-
 
 scrapeJobs()
 
