@@ -1,0 +1,129 @@
+Location:
+EPOS, Ballerup
+Description:
+As a DevOps Engineer at EPOS, you will play a key role in product and solution development. Our solutions are a mix of wired/wireless devices with firmware, PC application, and Cloud. In our multi-cultural organization, you will be responsible for the essential development of SW development tools. You will coordinate and lead the work in the different development projects from a SW release management and tools perspective.
+You will work closely with software development teams to ensure that the software build, and release process is flawless and that we have the right supporting tools in place for source code, source quality, security, documentation, defect, and compliance.
+
+Link: https://www.jobindex.dk/jobannonce/474728/devops-azure-cloud-engineer
+
+Location:
+Koda, København
+Description:
+Har du lyst til at være en del af et team, hvor interessen for musik og medier går hånd i hånd med kerneopgaverne indenfor datahåndtering og -analyse?
+Som en del af teamet Music Data Management bliver din primære opgave at etablere og udvikle BI-værktøjer til at monitorere og kvalitetssikre Kodas arbejde med musikdata, metadata samt musikbrugeres forbrugsdata. Mere konkret kommer din hverdag til at gå med at:
+
+Link: https://www.jobindex.dk/jobannonce/474750/bliv-data-scientist-i-koda-og-vaer-med-til-at-skabe-et-staerkere-musikliv
+
+Location:
+Marsh A/S, Virum
+Description:
+Du indgår i et team, hvor din primære opgave bliver tilrettelæggelse, projektstyring og implementering af forsikringsløsninger. Du vil derfor kommunikere mod vores IT- leverandør og med partnernes administrative funktioner.
+Forsikringsløsninger henvender sig både til forbrugere og mindre erhvervsvirksomheder. Opgaverne er projektbaserede og du håndterer alt fra opstart af forsikringsløsningen til implementering samt daglig vedligeholdelse.
+Dine ansvarsområder:
+
+Link: https://careers.marshmclennan.com/eu/en/job/R_221364/Senior-Implementation-Services-Analyst
+
+Location:
+Danske Bank, Høje Taastrup or Brabrand
+Description:
+Are you a curious and enthusiastic software engineer who is also motivated by assisting your colleagues improve and grow while developing and encouraging growth of a team of proficient engineers?
+Are you a fish in water in front of a whiteboard discussing the right approach to difficult problems and taking lead making the right decisions for a critical platform? Do you thrive in applying your technical expertise in complex and challenging domains? Then you are the one we are looking for.
+
+Link: https://ejqi.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/12070?utm_medium=jobboard&utm_source=JobIndex
+
+Location:
+Ørsted, Gentofte
+Description:
+Imagine a future where you contribute to handling our financial risk ranging from commodities like power and steel to FX exposures from our activities abroad.
+Join us in this role where you’ll be faced with a broad range of tasks, incl. technical coding problems, building business solutions, and carrying out ad hoc analyses.
+Most of the time you and your colleagues will design, develop, and maintain code and tools in SAS and Python while applying your technical skills to continuously improving and optimising our in-house-built risk management platform.
+
+Link: https://www.jobindex.dk/jobannonce/474794/senior-financial-risk-model-developer
+
+Location:
+Udviklings- og Forenklingsstyrelsen, Frederiksberg
+Description:
+Vil du være en del af et stærkt fagligt fællesskab? Er du interesseret i at arbejde med komplekse datastrukturer og samfundsvigtige opgaver?
+Vi søger flere Data Engineers til vores udviklingsteams, hvis hovedopgave er at hente data fra EU og USA til kontrol, der skal modvirke international skatteunddragelse. Vi har netop hjemtaget nye projekter og har brug for flere kræfter til at løse opgaven.
+Alle teams arbejder agilt inden for SAFe og har et årshjul med fire PI’s. Hvert PI afsluttes med tre dages Hackathon, der giver mere end 140 medarbejdere med forskellige fagligheder mulighed for at samarbejde på tværs om selvvalgte projekter.
+
+Link: https://candidate.hr-manager.net/ApplicationInit.aspx?cid=5001&ProjectId=166569&DepartmentId=9414&MediaId=3191
+
+Location:
+PFA, København
+Description:
+
+Vil du være med til at sikre drift af de kernesystemer i PFA, der holder styr på pensionen for mere end én million danskere? Lyder fejlfinding, applikations- og infrastruktursupport på en kompleks Windowsplatform og Azure DevOps som spændende næste skridt for dig?
+Du bliver en del af PFA’s største udviklingsområde, Produktplatform, og vores første prioritet i Service Management-teamet er at sikre en stabil applikationsdrift af PFA’s pensions- og forsikringssystemer – nu og i fremtiden.
+
+Link: https://www.jobindex.dk/jobannonce/474841/systemudvikler-til-infrastruktur-og-devops
+
+Location:
+NTI A/S, Aarhus
+Description:
+Vi har stor efterspørgsel på vores egenudviklede produkter, og derfor søger vi nu igen flere kolleger til vores udviklingsafdeling. Du vil komme til at arbejde med et spændende produktområde i tæt samarbejde med produktejerne og QA.
+
+Vi tilbyder et udfordrende job, hvor du får mulighed for at udvikle vores strategiske egenudviklede værktøjer og løsninger.
+Vi søger dig, der er dygtig fagligt og som vil trives i et arbejdsmiljø med en masse ligesindede, så I kan blive klogere og dygtigere sammen.
+
+Link: https://nti.career.emply.com/ad/software-developer/yrven6
+
+Location:
+Shure Scandinavia A/S, Copenhagen
+Description:
+We have a lot of exciting projects in the pipeline, and we are therefore looking for a talented Senior Full-Stack Web Developer to join our Copenhagen team.
+
+Link: https://www.jobindex.dk/jobannonce/472196/senior-full-stack-web-developer-with-passion
+
+Location:
+Danmarks Tekniske Universitet, Kgs. Lyngby
+Description:
+The Section of Bioinformatics, DTU Health Tech is world leading within Immunoinformatics and Machine-Learning. Currently, we are seeking a highly talented and motivated PhD student within the field of T cell receptor Immunoinformatics.
+The PhD position will focus on these novel developments and use cutting edge (deep) machine learning and data mining to develop models for prediction of TCR interactions. The work will involve data driven methods for data denoising, and various types of (graph) neural networks to embed structural models and sequence representations of TCR into models for improved prediction of TCR specificity.
+
+Link: https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/job/1404
+
+Location:
+Ørsted, Gentofte or Skærbæk
+Description:
+Imagine a future where you increase resilience towards cyber threats and help demonstrate that green energy is a stable and trusted energy source.
+Join us in this role where you’ll work closely with IT, engineering, and OT experts and with corporate security functions to help develop and strengthen the cybersecurity posture and compliance in offshore windfarm operations.
+In this way, you’ll foster the cybersecurity risk culture and approach, assess our risks, drive risk treatment activities, and develop the methodology and processes within the context of offshore wind farm operations, where the cyber threat landscape and compliance requirements are constantly increasing.
+
+Link: https://www.jobindex.dk/jobannonce/474865/cybersecurity-risk-management-expert-in-ot-operations
+
+Location:
+Ørsted, Gentofte or Skærbæk
+Description:
+Imagine a future where you play a vital part in securing a green and resilient infrastructure through information security.
+Join us in this role where you’ll be part of our international security team.
+You’ll be an important team player in driving the strategic implementation in Scandinavia, enabling the global security services, and being a sound and trusted liaison for various stakeholders.
+
+Link: https://www.jobindex.dk/jobannonce/474871/security-advisor
+
+Location:
+Metroselskabet og Hovedstadens Letbane, Copenhagen
+Description:
+Do you want to join Metroselskabet's digital journey, where the future construction projects will be carried out in a fully integrated GIS environment. Metroselskabet has several digitalisation projects, some of which have already begun, and others that will start in the coming years. Therefore, Metroselskabet is searching for a GIS IT-administrator, with preferable experience in working with ArcGIS.
+As a GIS IT-administrator some of your task will be;
+
+Link: https://metroselskabet.easycruit.com/vacancy/3128809/64401?iso=dk
+
+Location:
+Danmarks Tekniske Universitet, Kgs. Lyngby
+Description:
+Do you want to unfold your data science and bioinformatics skills for sustainability and human health?
+If your areas of interest and competence are genomic big data science and software development, and you are looking to gain experience while working on projects that will make an impact on the world, this is your chance.
+Your personal efforts will enable and accelerate works towards development of new environment friendly products, new medical treatments, climate friendly farming, etc using by applying the tools /pipeline of Big Data, AI and bioinformatics for the life sciences.
+
+Link: https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/job/1480
+
+Location:
+Lemvigh-Müller A/S, Herlev
+Description:
+Brænder du for flows, procesoptimering og gode brugeroplevelser? Så er du måske vores nye Salesforce administrator.
+I det daglige bliver dit fokus på Sales & Service Cloud, hvor vi har 600+ brugere. Her vil du arbejde med at optimere vores gamle eksisterende løsninger, som både er standard og custom løsninger, samt udvikling nye løsninger der skal understøtte vores forretning og tekniske setup i relation til vores RoadMap.
+Her vil der naturligt indgå afholdelse af møder med de relevante stakeholders og brugere, hvorfor en stærk kommerciel forståelse er vigtig, for at sikre bedst mulig implementering og funktion. Som en del af CRM-teamet vil du også indgå i den daglige support af vores brugere.
+
+Link: https://www.jobindex.dk/jobannonce/474857/salesforce-administrator
+

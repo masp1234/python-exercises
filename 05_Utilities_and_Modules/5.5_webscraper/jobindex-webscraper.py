@@ -10,42 +10,62 @@ response = session.get(url)
 # sleep=1 gør at den lige venter et sekund. Bare for at være sikker på, at det hele siden er loadet
 response.html.render(sleep=1)
 
-search_words = sys.argv[1:]
-jobs = []
-results = response.html.find('.PaidJob', containing=search_words)
 
-if len(results) <= 0:
-    print(f'There were no jobs containing {search_words}')
 
-else:
-    for result in results:
-        job_description = []
-        link = ''
-        paid_jobs = result.find('.PaidJob-inner')
-        for paid_job in paid_jobs:
-            p_tags = paid_job.find('p')
-            for p_tag in p_tags:
-                job_description.append(p_tag.text)
+def scrapeJobs():
+    search_words = sys.argv[1:]
+    job_results = response.html.find('.PaidJob', containing=search_words)
 
-        link = result.find('a', containing='Se jobbet')
-        for element in link:
-            link = element.attrs['href']
+    if len(job_results) <= 0:
+        print(f'There were no jobs containing {search_words}')
+
+    else:
+        jobs = []
+        for job_result in job_results:
+            jobs.append(createJobResult(job_result))
         
-        jobs.append((job_description, link))
+        createFile(jobs)
 
 
-    file = open('jobs.txt', 'w')
-    file = open('jobs.txt', 'a')
-
-    for job in jobs:
-        location = ''
-        description = ''
-        for element in job[0][1:]:
-            description += f'{element}\n'
-        
-        file.write(f'Location:\n{job[0][0]}\nDescription:\n{description}\nLink: {job[1]}\n\n')
+def createJobResult(job_result):
+    job_description = []
+    link = ''
+    paid_jobs = job_result.find('.PaidJob-inner')
+    for paid_job in paid_jobs:
+        p_tags = paid_job.find('p')
+        for p_tag in p_tags:
+            job_description.append(p_tag.text)
+            link = job_result.find('a', containing='Se jobbet')
+            for element in link:
+                link = element.attrs['href']
     
-    print(f'Success! {len(jobs)} jobs were found.')
+    return (job_description, link)
+        
+    
+    
+
+
+    
+
+def createFile(jobs):
+        file = open('jobs.txt', 'w')
+
+        for job in jobs:
+            description = ''
+            for element in job[0][1:]:
+                description += f'{element}\n'
+            
+            file.write(f'Location:\n{job[0][0]}\nDescription:\n{description}\nLink: {job[1]}\n\n')
+        
+        print(f'Success! {len(jobs)} jobs were found.')
+
+
+
+scrapeJobs()
+
+
+
+
     
        
        

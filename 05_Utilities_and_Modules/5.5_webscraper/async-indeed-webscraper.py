@@ -1,6 +1,5 @@
-from bs4 import BeautifulSoup
 from requests_html import AsyncHTMLSession
-import requests
+
 
 url = 'https://au.indeed.com/jobs?q=Software+developer&l=&vjk=5151e6184bed21c5'
 
