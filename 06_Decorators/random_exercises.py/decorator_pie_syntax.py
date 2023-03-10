@@ -1,8 +1,7 @@
 from decorators import my_decorator, do_twice
 
-
+@do_twice
 @my_decorator
-# @do_twice - man kan godt have flere decorators på
 def say_whee():
     print('Whee!')
 

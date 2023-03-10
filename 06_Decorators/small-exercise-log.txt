@@ -1,0 +1,8 @@
+
+Result: 10, timestamp: Thu Mar  9 11:16:03 2023, arguments: (1, 2, 3, 4)
+Result: 10, timestamp: Thu Mar  9 11:16:04 2023, arguments: (1, 2, 3, 4)
+Result: 10, timestamp: Thu Mar  9 11:16:04 2023, arguments: (1, 2, 3, 4)
+Result: 10, timestamp: Thu Mar  9 11:17:13 2023, arguments: (1, 2, 3, 4)
+Result: this is printed hello, timestamp: Thu Mar  9 11:17:13 2023, arguments: ('hello',)
+Result: 10, timestamp: Thu Mar  9 11:17:15 2023, arguments: (1, 2, 3, 4)
+Result: this is printed hello, timestamp: Thu Mar  9 11:17:15 2023, arguments: ('hello',)
