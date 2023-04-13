@@ -47,3 +47,19 @@ print('r 3')
 r3 = range_mimic(-20, 45, 4)
 for i in r3:
     print(i)
+
+# virker ikke når stopindex er lavere end startindex. Find løsning
+print('r 4')
+r4 = range_mimic(10, -10 , -1)
+for i in r4:
+    print(i)
+
+print()
+
+def generator(start, stop, step):
+    for i in range(start, stop, step):
+        yield i
+
+print('gen 1')
+for i in generator(1, 100, 3):
+    print(i)
