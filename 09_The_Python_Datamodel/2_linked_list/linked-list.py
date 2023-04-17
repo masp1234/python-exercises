@@ -12,18 +12,30 @@ class LinkedList:
         self.head = head
 
     def __iter__(self):
-        copied_list = []
-        next = True
-        current_node = self.head
-        while next:
-            if current_node.next != None:
-                copied_list.append(current_node)
-                current_node = current_node.next
-            else:
-                next = False
-        return copied_list
+        self._current_node = self.head
+        return self
+    
+    def __next__(self):
+        if self._current_node == None:
+            raise StopIteration
+        else:
+            current_element = self._current_node
+            self._current_node = self._current_node.next
+            return current_element
+    def __len__(self):
+        length = 0
+        for node in self:
+            length += 1
+        return length
+
+    def __getitem__(self, index):
+        counter = 0
+        for node in self:
+            if index == counter:
+                return node
             
-        
+
+
     @property
     def head(self):
         return self._head
@@ -35,8 +47,12 @@ class LinkedList:
 
 llist = LinkedList(Node('Node1'))
 llist.head.next = Node('Node2')
-print(llist.head)
+llist.head.next.next = Node('Node3')
 
 for node in llist:
     print(node)
 
+print(len(llist))
+
+element = llist[1]
+print(element)
