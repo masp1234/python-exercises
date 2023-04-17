@@ -11,6 +11,9 @@ class LinkedList:
     def __init__(self, head):
         self.head = head
 
+    def __repr__(self):
+        return f'{self.__dict__}'
+
     def __iter__(self):
         self._current_node = self.head
         return self
@@ -27,6 +30,11 @@ class LinkedList:
         for node in self:
             length += 1
         return length
+    
+    def __add__(self, other):
+        # Should return a new list instead of mutating "self"
+        last_node = self[len(self) - 1]
+        last_node.next = other.head
 
     def __getitem__(self, index):
         if index >= len(self):
@@ -61,3 +69,10 @@ print(element)
 
 element = llist[2]
 print(element)
+print(len(llist))
+
+newllist = LinkedList(Node('Hello first node in second list'))
+newllist.head.next = Node('second element in second list')
+llist + newllist
+print(len(llist))
+print(llist)
