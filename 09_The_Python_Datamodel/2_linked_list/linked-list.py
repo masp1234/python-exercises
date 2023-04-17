@@ -29,10 +29,13 @@ class LinkedList:
         return length
 
     def __getitem__(self, index):
+        if index >= len(self):
+            raise IndexError(f'the index: {index} is out of range')
         counter = 0
         for node in self:
             if index == counter:
                 return node
+            counter += 1
             
 
 
@@ -49,10 +52,12 @@ llist = LinkedList(Node('Node1'))
 llist.head.next = Node('Node2')
 llist.head.next.next = Node('Node3')
 
-for node in llist:
-    print(node)
 
-print(len(llist))
+element = llist[0]
+print(element)
 
 element = llist[1]
+print(element)
+
+element = llist[2]
 print(element)
